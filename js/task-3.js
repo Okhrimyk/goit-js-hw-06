@@ -6,10 +6,7 @@ class StringBuilder{
     getValue() {
         return this.#value;
     }
-    padEnd(str) {
-        return this.#value = str;
-    }
-    padStart(str) {
+      padStart(str) {
         return this.#value = str + this.#value;
     } 
     padEnd(str) {
